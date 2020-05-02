@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.team">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".English" android:label="English Material"></activity>
+        <activity android:name=".Data_Structure" android:label="Data Structure Material" />
+        <activity android:name=".CSE" android:label="Select Subject"/>
+        <activity
+            android:name=".Class_12"
+            android:label="Select Subject" />
+        <activity
+            android:name=".CollegeActivity"
+            android:label="Select Branch" />
+        <activity
+            android:name=".SchoolActivity"
+            android:label="Select Class" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
